@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    border-bottom: 2px solid white;
+}
+ul{
+   text-align:center;
+   margin-top: 15px; 
+}
+a{
+    color: rgb(236, 230, 226);
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+a:hover{
+    transform: scale(2,2);
+    border:1px solid rgb(250, 240, 240) ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+aside{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(20, 149, 63);
+}
+#dentro{
+    position: absolute;
+    width: 50%;
+    height: 60vh;
+    padding: 30px;
+}
+.imagem-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    float: left;
+}
+
+img {
+    width: 150px;
+    height: 150px; 
+}
+
+
+#texto{
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: -200px;
+    background: rgb(0, 0, 0);
+    padding: 50px;
+    height: 50vh;
+    width: 40%;
+    border-radius: 2%;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+  
+.whatsapp-link img {
+    width: 40px;
+    height: 40px;
+}
+  
+.whatsapp-link i {
+    font-size: 20px;
+    color: black;
+}
+.person-info {
+    position: fixed;
+    top: 70px; /* Altere a posição vertical conforme necessário */
+    right: 50px; /* Altere a posição horizontal conforme necessário */
+    width: 650px; /* Defina a largura do bloco */
+    background-color: #f9f9f9; /* Cor de fundo do bloco */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do bloco */
+    z-index: 1000; /* Garantir que o bloco fique acima de outros elementos */
+  }
+  
+  .person-info img {
+    width: 100%; /* Imagem ocupa toda a largura do bloco */
+    height: 350px;
+    border-radius: 5%; /* Faz a imagem ficar redonda */
+    margin-bottom: 100px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .person-info p {
+    margin: 5px;
+    font-size: 20px; /* Tamanho do texto */
+    color: #000000;
+  }
+  
+  
